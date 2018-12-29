@@ -22,8 +22,4 @@ public class VisaPremier extends Carte {
 		this.zone = zone;
 	}
 
-	
-	
-	
-
 }
