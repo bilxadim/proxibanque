@@ -21,5 +21,6 @@ public class VisaPremier extends Carte {
 	public void setZone(String zone) {
 		this.zone = zone;
 	}
+	
 
 }
