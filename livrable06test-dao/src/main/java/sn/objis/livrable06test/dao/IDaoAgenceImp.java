@@ -2,6 +2,7 @@ package sn.objis.livrable06test.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.util.ArrayList;
 import java.util.List;
 
 import sn.objis.livrable06test.domaine.Agence;
@@ -34,8 +35,28 @@ public class IDaoAgenceImp implements IDaoAgence {
 
 	@Override
 	public List<Agence> read() {
-		// TODO Auto-generated method stub
+		List<Agence> listAgence = new ArrayList<>();
+		
+		try {
+			// Etape1: Creation de la zone de requete
+			String sql="SELECT * FROM agence";
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return null;
+	}
+
+	@Override
+	public void update(Agence e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Agence e) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
