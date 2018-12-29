@@ -35,6 +35,7 @@ public class IDaoAgenceImp implements IDaoAgence {
 	@Override
 	public List<Agence> read() {
 		// TODO Auto-generated method stub
+		System.out.println("liste des agences");
 		return null;
 	}
 
